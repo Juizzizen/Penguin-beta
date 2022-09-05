@@ -50,8 +50,4 @@ jobs:
               if: startsWith(matrix.os, 'ubuntu')
               run: npm run publish
               env:
-<<<<<<< HEAD
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-=======
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
->>>>>>> 6bf111aaf9d005e5c6ff746d5b180993af185cde
