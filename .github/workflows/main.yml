@@ -11,6 +11,7 @@ on:
 jobs:
     # This workflow contains a single job called "build"
     build:
+        permissions: write-all
         # The type of runner that the job will run on
         name: Build ClubPenguinClient App
         runs-on: ${{ matrix.os }}
@@ -41,7 +42,7 @@ jobs:
 
             - name: Make and Publish (WINDOWS)
               if: startsWith(matrix.os, 'windows')
-              run: npm run publish-windows
+              run: npm run publish-windows 
               env:
                 GITHUB_TOKEN: ${{ secrets.BUILD_TOKEN }}
 
