@@ -1,4 +1,4 @@
-name: Build ClubPenguinClient App
+name: Build App
 
 # Controls when the action will run.
 on:
