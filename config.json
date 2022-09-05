@@ -1,0 +1,20 @@
+{
+	"mainURL": "https://play.juizzihosting.com",
+	"repositoryName": "Juizzizen/Penguin-beta",
+	"discordRpc": {
+		"enable": false,
+		"discordAppId": "995035289263292426",
+		"activityTitle": "Secret Agency Club Penguin",
+		"activityDescription": "Jugando club penguin!",
+		"buttons": [
+			{
+				"label": "Hello",
+				"url": "https://google.com"
+			}
+		]
+	},
+	"windowSettings": {
+		"width": 1280,
+		"height": 720
+	}
+}
