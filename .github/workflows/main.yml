@@ -11,13 +11,12 @@ on:
 jobs:
     # This workflow contains a single job called "build"
     build:
-        permissions: write-all
         # The type of runner that the job will run on
         name: Build ClubPenguinClient App
         runs-on: ${{ matrix.os }}
         strategy:
             matrix:
-                os: [windows-latest, ubuntu-latest]
+                os: [ubuntu-latest, windows-latest]
 
         steps:
             - name: Check out the repository
