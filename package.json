@@ -1,7 +1,7 @@
 {
 	"name": "cpc",
 	"productName": "",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Club Penguin Client - Made with electron and includes flash player",
 	"main": "src/main.js",
 	"scripts": {
@@ -30,7 +30,7 @@
 						"name": "cpc-windows",
 						"authors": "ClubPenguin",
 						"title": "Club Penguin Client",
-						"iconUrl": "https://play.juizzicraft.com/assets/clienticon.ico"
+						"iconUrl": "http://play.juizzicraft.com/assets/clienticon.ico"
 					}
 				},
 				{
@@ -50,7 +50,7 @@
 					"name": "@electron-forge/maker-deb",
 					"config": {
 						"name": "cpc-linuxDebian",
-						"version": "1.0.0"
+						"version": "1.0.1"
 					}
 				},
 				{
