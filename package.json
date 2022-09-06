@@ -1,8 +1,8 @@
 {
-	"name": "cpc",
+	"name": "Klubi Pingviini",
 	"productName": "",
-	"version": "1.0.2",
-	"description": "Club Penguin Client - Made with electron and includes flash player",
+	"version": "1.0.3",
+	"description": "Klubi Pingviini Client",
 	"main": "src/main.js",
 	"scripts": {
 		"start": "electron-forge start",
@@ -27,8 +27,8 @@
 					"name": "@electron-forge/maker-squirrel",
 					"config": {
 						"name": "cpc-windows",
-						"authors": "ClubPenguin",
-						"title": "Club Penguin Client",
+						"authors": "Klubi Pingviini",
+						"title": "Klubi Pingviini",
 						"iconUrl": "http://play.juizzicraft.com/assets/clienticon.ico"
 					}
 				},
@@ -48,8 +48,8 @@
 				{
 					"name": "@electron-forge/maker-deb",
 					"config": {
-						"name": "cpc-linuxDebian",
-						"version": "1.0.2"
+						"name": "Klubi Pingviini - Linux",
+						"version": "1.0.3"
 					}
 				},
 				{
@@ -90,7 +90,7 @@
 			}
 		],
 		"appId": "com.sacp.cpc-app",
-		"productName": "ClubPenguinClient",
+		"productName": "Club Penguin",
 		"copyright": "Copyright © 2022 ${author}",
 		"win": {
 			"icon": "./lib/icons/icon.png"

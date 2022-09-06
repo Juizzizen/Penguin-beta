@@ -4,12 +4,12 @@
 	"discordRpc": {
 		"enable": false,
 		"discordAppId": "995035289263292426",
-		"activityTitle": "Secret Agency Club Penguin",
-		"activityDescription": "Jugando club penguin!",
+		"activityTitle": "Juizzi's secret penguin lair",
+		"activityDescription": "Waddle on!",
 		"buttons": [
 			{
-				"label": "Hello",
-				"url": "https://google.com"
+				"label": "Where even is this?",
+				"url": "https://juizzi.fi"
 			}
 		]
 	},
