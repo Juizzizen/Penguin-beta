@@ -1,7 +1,7 @@
 {
 	"name": "Klubi-Pingviini",
 	"productName": "",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Klubi Pingviini Client",
 	"main": "src/main.js",
 	"scripts": {
@@ -29,7 +29,7 @@
 						"name": "cpc-windows",
 						"authors": "Klubi-Pingviini",
 						"title": "Klubi-Pingviini",
-						"iconUrl": "http://play.juizzicraft.com/assets/clienticon.ico"
+						"iconUrl": "http://play.juizzihosting.com/assets/clienticon.ico"
 					}
 				},
 				{
@@ -49,7 +49,7 @@
 					"name": "@electron-forge/maker-deb",
 					"config": {
 						"name": "Klubi-Pingviini-Linux",
-						"version": "1.0.3"
+						"version": "1.0.4"
 					}
 				},
 				{
@@ -91,7 +91,7 @@
 		],
 		"appId": "com.sacp.cpc-app",
 		"productName": "Klubi-Pingviini",
-		"copyright": "Copyright © 2022 ${author}",
+		"copyright": "Copyright © 2023 ${author}",
 		"win": {
 			"icon": "./lib/icons/icon.png"
 		},
